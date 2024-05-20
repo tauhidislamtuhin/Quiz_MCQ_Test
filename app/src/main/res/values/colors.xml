@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#E68D09</color>
+    <color name="colorPrimaryDark">#FE7A0A</color>
+    <color name="colorAccent">#FEE60A</color>
+    <color name="colorBase">#F2B30F</color>
+    <color name="colorOrangeBaseDark">#E84C02</color>
+
+    <color name="background">#F3E4BA</color>
+    <color name="shadow_color_top">#EFD079</color>
+    <color name="shadow_color_bottom">#F6F4F1</color>
+    <color name="text_color">#000000</color>
+    <color name="dark_grey">#696969</color>
+    <color name="orange_light">#fc8529</color>
+
+    <color name="brown">#322d25</color>
+    <color name="blue">#60c5d1</color>
+    <color name="light_green">#97e6b0</color>
+    <color name="dark_green">#2b453d</color>
+    <color name="gray">#f3f3f3</color>
+    <color name="light_red">#e29196</color>
+    <color name="dark_red">#F13F4A</color>
+    <color name="light_gray">#808080</color>
+    <color name="dark_gray">#4E4C4C</color>
+
+    <color name="button_color">#3894E4</color>
+
+
+    <color name="text_color1">#1E4175</color>
+    <color name="background_color">#ecf0f3</color>
+    <color name="highlight">#ffffff</color>
+    <color name="shadow_color">#d9dbde</color>
+</resources>

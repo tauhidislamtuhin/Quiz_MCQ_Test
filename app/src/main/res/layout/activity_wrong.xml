@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RightActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    >
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieTop"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:padding="20dp"
+        android:scaleType="centerInside"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/wrong_anim"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:gravity="start|center"
+        >
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottsss"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="0dp"
+            android:scaleType="centerInside"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/q4"
+            />
+
+        <TextView
+            android:id="@+id/lblQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="দিল্লির হিংহাসনে অধিষ্ঠিত প্রথম মুসলিম নারী কে?"
+            android:textColor="@color/text_color1"
+            android:textSize="18sp"
+            android:gravity="start|center"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="start|center"
+        >
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lotts"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="0dp"
+            android:scaleType="centerInside"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/right_anim"
+            />
+
+        <TextView
+            android:id="@+id/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Answer : A"
+            android:textColor="@color/text_color1"
+            android:textSize="20sp"
+            android:gravity="start|center"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_orange"
+        android:text="Next"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:onClick="loadAnswer"
+        android:textSize="18sp"
+        style="?android:attr/borderlessButtonStyle"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_margin="40dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        />
+
+
+
+
+</LinearLayout>
