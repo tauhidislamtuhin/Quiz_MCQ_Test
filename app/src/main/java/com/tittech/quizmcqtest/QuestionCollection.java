@@ -292,6 +292,199 @@ public class QuestionCollection extends AppCompatActivity {
         };
         QuestionModule.createQuestionsForSubject("41 To 50", questions);
 
+        //------------- 51-60
+        questions = new ArrayList(){
+            {
+
+                add(new QuestionModule("Which year did World War I begin?", "D","1914", "1905", "1917", "1921", "1914"));
+                add(new QuestionModule("Who was the first President of the United States?", "D","George Washington", "Thomas Jefferson", "John Adams", "Abraham Lincoln", "George Washington"));
+                add(new QuestionModule("What year did Christopher Columbus arrive in the Americas?", "D","1492", "1520", "1456", "1510", "1492"));
+                add(new QuestionModule("Which ancient civilization built the pyramids?", "A","Ancient Egyptians", "Ancient Greeks", "Ancient Romans", "Mayans", "Ancient Egyptians"));
+                add(new QuestionModule("Who was the first Emperor of Rome?", "C","Augustus", "Nero", "Constantine", "Augustus", "Julius Caesar"));
+                add(new QuestionModule("Who painted the Mona Lisa?", "B","Leonardo da Vinci", "Michelangelo", "Leonardo da Vinci" ,"Raphael", "Donatello"));
+                add(new QuestionModule("Which country was the first to use paper money?", "B","China" , "China","India", "Italy", "Egypt"));
+                add(new QuestionModule("In which year did the American Civil War end?", "D","1865", "1876", "1850", "1888", "1865"));
+                add(new QuestionModule("Which scientist formulated the theory of relativity?", "D","Albert Einstein", "Isaac Newton", "Galileo Galilei", "Stephen Hawking", "Albert Einstein"));
+                add(new QuestionModule("Who was the first woman to win a Nobel Prize?", "A","Marie Curie", "Marie Curie","Rosalind Franklin", "Ada Lovelace", "Jane Goodall" ));
+
+            }
+        };
+        QuestionModule.createQuestionsForSubject("51 To 60", questions);
+
+
+        //------------- 61-70
+        questions = new ArrayList(){
+            {
+
+                add(new QuestionModule("Who wrote 'To Kill a Mockingbird'?", "A","Harper Lee", "Harper Lee","Mark Twain", "J.D. Salinger", "F. Scott Fitzgerald"));
+                add(new QuestionModule("Which city is considered the birthplace of democracy?", "D","Athens", "Rome", "Paris", "London", "Athens"));
+                add(new QuestionModule("Who painted the ceiling of the Sistine Chapel?", "C","Michelangelo", "Leonardo da Vinci", "Raphael", "Michelangelo", "Donatello"));
+                add(new QuestionModule("Which battle is considered the turning point of World War II in Europe?", "A","Battle of Stalingrad", "Battle of Stalingrad", "Battle of Midway", "Battle of Normandy", "Battle of Britain"));
+                add(new QuestionModule("Who was the first person to step on the moon?", "B","Neil Armstrong", "Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Alan Shepard"));
+                add(new QuestionModule("Which city was the first to be attacked by an atomic bomb?", "A","Hiroshima", "Hiroshima","Nagasaki", "Tokyo", "Berlin"));
+                add(new QuestionModule("Who was the first female Prime Minister of the United Kingdom?", "A","Margaret Thatcher", "Margaret Thatcher", "Theresa May", "Angela Merkel", "Indira Gandhi"));
+                add(new QuestionModule("Who is known as the 'Father of the Computer'?", "B","Charles Babbage", "Alan Turing", "Bill Gates", "Charles Babbage", "Steve Jobs"));
+                add(new QuestionModule("Which country was the first to launch an artificial satellite into space?", "D","Soviet Union (Russia)", "United States", "China", "India", "Soviet Union (Russia)"));
+                add(new QuestionModule("Who wrote 'The Communist Manifesto'?", "D","Karl Marx and Friedrich Engels", "Vladimir Lenin", "Leon Trotsky", "Joseph Stalin", "Karl Marx and Friedrich Engels"));
+
+            }
+        };
+        QuestionModule.createQuestionsForSubject("61 To 70", questions);
+
+
+        //------------- 71-80
+        questions = new ArrayList(){
+            {
+                add(new QuestionModule("Who was the longest-reigning monarch in British history?", "A","Queen Elizabeth II", "Queen Elizabeth II", "King George III", "King Henry VIII", "Queen Victoria"));
+                add(new QuestionModule("What year did the Berlin Wall fall?", "D","1989", "1991", "1979", "1990", "1989"));
+                add(new QuestionModule("Which civilization built the Great Wall of China?", "D","Ancient Chinese", "Ancient Romans", "Ancient Greeks", "Mayans", "Ancient Chinese"));
+                add(new QuestionModule("Who was the first female President of a country?", "B","Sirimavo Bandaranaike", "Golda Meir", "Sirimavo Bandaranaike", "Indira Gandhi", "Margaret Thatcher"));
+                add(new QuestionModule("Which war is also known as the 'War to End All Wars'?", "C","World War I", "World War II", "Vietnam War", "World War I", "Korean War"));
+                add(new QuestionModule("Who discovered penicillin?", "A","Alexander Fleming", "Alexander Fleming","Louis Pasteur", "Robert Koch", "Edward Jenner"));
+                add(new QuestionModule("Who painted 'The Starry Night'?", "D","Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet", "Vincent van Gogh"));
+                add(new QuestionModule("Who is considered the 'Father of Medicine'?", "B","Hippocrates", "Aristotle", "Hippocrates", "Socrates", "Plato"));
+                add(new QuestionModule("Which country is known as the 'Land of the Rising Sun'?", "C","Japan", "China", "Korea", "Japan", "Vietnam"));
+                add(new QuestionModule("Who was the first female astronaut?", "D","Valentina Tereshkova", "Sally Ride", "Mae Jemison", "Judith Resnik", "Valentina Tereshkova"));
+
+            }
+        };
+        QuestionModule.createQuestionsForSubject("71 To 80", questions);
+
+
+
+        //------------- 81-90
+        questions = new ArrayList(){
+            {
+
+                add(new QuestionModule("Which explorer was the first to circumnavigate the globe?", "D","Ferdinand Magellan", "Christopher Columbus", "Vasco da Gama", "Marco Polo", "Ferdinand Magellan"));
+                add(new QuestionModule("Who was the first female pilot to fly solo across the Atlantic Ocean?", "B","Amelia Earhart", "Bessie Coleman", "Amelia Earhart", "Harriet Quimby", "Jacqueline Cochran"));
+                add(new QuestionModule("Which empire was ruled by Julius Caesar?", "A","Roman Empire","Roman Empire", "Byzantine Empire", "Mongol Empire", "Ottoman Empire"));
+                add(new QuestionModule("Which scientist proposed the heliocentric theory?", "D","Nicolaus Copernicus", "Galileo Galilei", "Isaac Newton", "Johannes Kepler", "Nicolaus Copernicus"));
+                add(new QuestionModule("Who wrote 'The Diary of a Young Girl', also known as 'The Diary of Anne Frank'?", "B","Anne Frank", "Margaret Atwood", "Anne Frank", "Harper Lee", "Maya Angelou"));
+                add(new QuestionModule("Who invented the telephone?", "C","Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"));
+                add(new QuestionModule("Which European city is known as the 'City of Love'?", "A","Paris", "Paris", "Rome", "Venice", "Florence"));
+                add(new QuestionModule("Who founded Microsoft?", "D","Bill Gates and Paul Allen", "Steve Jobs and Steve Wozniak", "Larry Page and Sergey Brin", "Mark Zuckerberg", "Bill Gates and Paul Allen"));
+                add(new QuestionModule("In which year did the Titanic sink?", "B","1912", "1914", "1912", "1916", "1918"));
+                add(new QuestionModule("Which Chinese philosopher wrote 'The Art of War'?", "C","Sun Tzu", "Confucius", "Laozi", "Sun Tzu", "Mencius"));
+
+            }
+        };
+        QuestionModule.createQuestionsForSubject("81 To 90", questions);
+
+
+        //------------- 91-100
+        questions = new ArrayList(){
+            {
+                add(new QuestionModule("Who painted 'The Last Supper'?", "C","Leonardo da Vinci", "Michelangelo", "Raphael", "Leonardo da Vinci", "Donatello"));
+                add(new QuestionModule("Which country hosted the first modern Olympic Games?", "A","Greece", "Greece", "France", "United States", "Germany"));
+                add(new QuestionModule("Who composed 'Symphony No. 9'?", "D","Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Johannes Brahms", "Ludwig van Beethoven"));
+                add(new QuestionModule("Who was the first European explorer to reach India by sea?", "B","Vasco da Gama", "Christopher Columbus", "Vasco da Gama", "Ferdinand Magellan", "Marco Polo"));
+                add(new QuestionModule("Which famous speech began with 'I have a dream'?", "D","Martin Luther King Jr.'s speech", "John F. Kennedy's speech", "Winston Churchill's speech", "Nelson Mandela's speech", "Martin Luther King Jr.'s speech"));
+                add(new QuestionModule("Who was the first emperor of China?", "B","Qin Shi Huang", "Han Wudi", "Qin Shi Huang", "Kangxi Emperor", "Taizong of Tang"));
+                add(new QuestionModule("Who was the first President of the Soviet Union?", "A","Mikhail Gorbachev", "Mikhail Gorbachev", "Joseph Stalin", "Leonid Brezhnev", "Vladimir Lenin"));
+                add(new QuestionModule("Which ocean did Ferdinand Magellan first navigate?", "A","Pacific Ocean", "Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"));
+                add(new QuestionModule("Which queen ruled England for only nine days?", "C","Lady Jane Grey", "Queen Mary I", "Queen Elizabeth I", "Lady Jane Grey", "Mary Queen of Scots"));
+                add(new QuestionModule("Who wrote 'The Wealth of Nations'?", "D","Adam Smith", "Karl Marx", "John Maynard Keynes", "Milton Friedman", "Adam Smith"));
+
+            }
+        };
+        QuestionModule.createQuestionsForSubject("91 To 100", questions);
+
+
+
+
+
+
+
+
+
+        //------------- 51-60
+/*        questions = new ArrayList(){
+            {
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+            }
+        };
+        QuestionModule.createQuestionsForSubject("51 To 60", questions);*/
+
+        //------------- 61-70
+/*        questions = new ArrayList(){
+            {
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+            }
+        };
+        QuestionModule.createQuestionsForSubject("61 To 70", questions);*/
+
+        //------------- 71-80
+/*        questions = new ArrayList(){
+            {
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+            }
+        };
+        QuestionModule.createQuestionsForSubject("71 To 80", questions);*/
+
+        //------------- 81-90
+/*        questions = new ArrayList(){
+            {
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+            }
+        };
+        QuestionModule.createQuestionsForSubject("81 To 90", questions);*/
+
+        //------------- 90-100
+/*        questions = new ArrayList(){
+            {
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+                add(new QuestionModule("বাংলাদেশের", "D", "মেধনা","পদ্মা", "যমুনা", "ব্রহ্মপুত্র", "মেধনা"));
+            }
+        };
+        QuestionModule.createQuestionsForSubject("91 To 100", questions);*/
+
+
+
 
 
 
