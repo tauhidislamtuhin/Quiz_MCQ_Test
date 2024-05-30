@@ -14,6 +14,8 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 public class ScoreActivity extends AppCompatActivity {
     TextView txtscore;
     TextView txtStatus, tvSubjectName;
@@ -24,6 +26,8 @@ public class ScoreActivity extends AppCompatActivity {
     TextView progressText;
     ProgressBar progressBarWrong;
     TextView progressTextWrong;
+
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +51,8 @@ public class ScoreActivity extends AppCompatActivity {
 
         int iscore = Integer.parseInt(scores);
         int iworng = Integer.parseInt(wrong);
+
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
 
 

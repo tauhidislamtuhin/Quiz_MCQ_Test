@@ -5,7 +5,6 @@
     <string name="scores">Score</string>
 
 
-
     <!-- Device ID  setTestDeviceIds (search on logcat for device id) -->
     <string name="device_id">ABCD</string>
     <!-- Admob AD ON or OFF -->

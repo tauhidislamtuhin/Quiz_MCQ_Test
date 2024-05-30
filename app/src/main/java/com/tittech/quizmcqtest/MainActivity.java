@@ -37,6 +37,10 @@ import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
+import com.google.firebase.analytics.FirebaseAnalytics;
+import com.onesignal.Continue;
+import com.onesignal.OneSignal;
+import com.onesignal.debug.LogLevel;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -48,7 +52,10 @@ public class MainActivity extends AppCompatActivity {
     GridViewbyTuhin mainGrid;
     SharedPreferences sharedPreferences;
     TextView tvScore;
-    LinearLayout scoreLayout;
+    LinearLayout scoreLayout,pp;
+
+    private FirebaseAnalytics mFirebaseAnalytics;
+    private static final String ONESIGNAL_APP_ID = "f8bf1ce2-7a27-4703-9de0-32961797ad48";
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,14 +66,30 @@ public class MainActivity extends AppCompatActivity {
         tvScore = findViewById(R.id.tvScore);
         mAdView.setVisibility(View.GONE);
         scoreLayout = findViewById(R.id.scoreLayout);
+        pp = findViewById(R.id.pp);
         sharedPreferences = getSharedPreferences(getString(R.string.app_name), MODE_PRIVATE);
         QuestionCollection.createQuestionBank();
+
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+        OneSignal.getDebug().setLogLevel(LogLevel.VERBOSE);
+        OneSignal.initWithContext(this, ONESIGNAL_APP_ID);
+        OneSignal.getNotifications().requestPermission(false, Continue.none());
+
 
         if (getString(R.string.show_admob_ad).contains("ON")){
             initAdmobAd();
             loadBannerAd();
             loadFullscreenAd();
         }
+
+        pp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,PrivacyPolicy.class));
+            }
+        });
+
+
 
 /*        scoreLayout.setOnClickListener(new View.OnClickListener() {
             @Override

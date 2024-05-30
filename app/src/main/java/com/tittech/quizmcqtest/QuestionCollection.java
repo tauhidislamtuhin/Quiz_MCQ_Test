@@ -18,6 +18,8 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -41,10 +43,13 @@ public class QuestionCollection extends AppCompatActivity {
     public static ArrayList <HashMap<String, String>> subjectList = new ArrayList<>();
     LinearLayout rootLay;
 
+    private FirebaseAnalytics mFirebaseAnalytics;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question_collection);
+
         rootLay = findViewById(R.id.rootLay);
         confirm = findViewById(R.id.confirm);
         lblQuestion = findViewById(R.id.lblPergunta);
@@ -56,12 +61,15 @@ public class QuestionCollection extends AppCompatActivity {
         radioGroup = findViewById(R.id.radioGroup);
         loadQuestion();
 
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+
         getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {
 
             }
         });
+
 
     }
 
@@ -193,7 +201,7 @@ public class QuestionCollection extends AppCompatActivity {
         //------------- 1-10
                 questions = new ArrayList(){
             {
-                add(new QuestionModule("n what year was the first iPhone released?", "A", "2007","2005", "2007", "2008", "2010"));
+                add(new QuestionModule("What year was the first iPhone released?", "A", "2007","2005", "2007", "2008", "2010"));
                 add(new QuestionModule("Who wrote the novel 1984?", "A", "George Orwell","George Orwell", "J.K. Rowling", "F. Scott Fitzgerald", "Ernest Hemingway"));
                 add(new QuestionModule("What is the capital city of Australia?", "C", "Canberra ","Sydney", "Melbourne", "Canberra ", "Brisbane"));
                 add(new QuestionModule("What is the chemical symbol for Gold?", "D", "Au ","Gd", "Go", "Ag", "Au"));
@@ -428,7 +436,7 @@ public class QuestionCollection extends AppCompatActivity {
                 add(new QuestionModule("The Grand Canyon, a natural wonder carved by the Colorado River, is located in which US state?", "A", "Arizona","Arizona", "California ", "Colorado ", "Nevada "));
                 add(new QuestionModule("Which of the following seas is the world's smallest and shallowest?", "D", "Sea of Azov","Arctic Ocean ", "Baltic Sea", "Mediterranean Sea", "Sea of Azov"));
                 add(new QuestionModule("The iconic White House serves as the official residence of the President of the United States. In which city is it located?", "C", "Washington, D.C.","New York City", "Los Angeles", "Washington, D.C.", "Chicago"));
-                add(new QuestionModule(" The Great Wall of China, a UNESCO World Heritage Site, stretches for thousands of miles through which country?", "D", "China ","Japan", "Korea", "India ", "China "));
+                add(new QuestionModule("The Great Wall of China, a UNESCO World Heritage Site, stretches for thousands of miles through which country?", "D", "China ","Japan", "Korea", "India ", "China "));
                 add(new QuestionModule("The iconic Taj Mahal, a monument to love and architectural marvel, is located in which Indian city?", "B", "Agra","Mumbai", "Agra", "Delhi", "Kolkata"));
                 add(new QuestionModule("Which of the following is the Capital of Poland?", "B", "Warsaw","Berlin", "Warsaw", "Paris ", "Dublin"));
                 add(new QuestionModule("Which country produces the most maple syrup in the world?", "A", "Canada","Canada", "United States", "Germany", "Australia"));
@@ -792,7 +800,7 @@ public class QuestionCollection extends AppCompatActivity {
                 add(new QuestionModule("Which county is the biggest grower of coffee?", "B", "Brazil","Spain", "Brazil", "India", "Ethiopia"));
                 add(new QuestionModule("How many bones are in the body of an adult human?", "C", "206","330", "250", "206", "210"));
                 add(new QuestionModule("When the humans use more facial muscles?", "B", "While frowning","While smiling", "While frowning", "While sleeping", "While talking"));
-                add(new QuestionModule(" Who wrote “Crime and Punishment”?", "D", "Fyodor Dostoevsky","Leo Tolstoy", "Anton Chekhov", "Ivan Turgenev", "Fyodor Dostoevsky"));
+                add(new QuestionModule("Who wrote “Crime and Punishment”?", "D", "Fyodor Dostoevsky","Leo Tolstoy", "Anton Chekhov", "Ivan Turgenev", "Fyodor Dostoevsky"));
                 add(new QuestionModule("In what year was the United Nations (UN) founded?", "A", "1945","1945", "1919", "1956", "1961"));
                 add(new QuestionModule("Which city is called the “City of Winds”?", "A", "Chicago","Chicago", "Seattle", "Washington", "Veliky Novgorod"));
                 add(new QuestionModule("What animal is a symbol of peace and neutrality?", "D", "White crane","Polar bear", "White tiger", "White lion", "White crane"));
@@ -921,6 +929,8 @@ public class QuestionCollection extends AppCompatActivity {
             }
         };
         QuestionModule.createQuestionsForSubject("391 To 400", questions);
+
+
 
 
 

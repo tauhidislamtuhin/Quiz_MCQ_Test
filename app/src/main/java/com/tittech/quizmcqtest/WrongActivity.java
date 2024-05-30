@@ -11,10 +11,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 public class WrongActivity extends AppCompatActivity {
     Button next;
     TextView question;
     TextView answer;
+    private FirebaseAnalytics mFirebaseAnalytics;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +32,8 @@ public class WrongActivity extends AppCompatActivity {
         String rightAnswer = bundle.getString("rightAnswer");
         String rightAnswerFull = bundle.getString("rightAnswerFull");
         Log.d("lblQuestion",q+" \nrightAnswer : "+rightAnswer+"."+rightAnswerFull);
+
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         question.setText(q);
         answer.setText(rightAnswer+". "+rightAnswerFull);
