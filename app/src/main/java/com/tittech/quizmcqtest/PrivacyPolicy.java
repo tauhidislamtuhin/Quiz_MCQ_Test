@@ -63,7 +63,7 @@ public class PrivacyPolicy extends AppCompatActivity {
         });
 
         webView.getSettings().setDomStorageEnabled(true);
-        webView.loadUrl("https://sites.google.com/view/26surah");
+        webView.loadUrl("https://sites.google.com/view/gkquizmcq");
 
     }
     private class HelloWebViewClient extends WebViewClient {
